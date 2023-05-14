@@ -8,10 +8,14 @@ body{
     display: flex;
     justify-content: center;
 }
+h2, h3{
+    color: #A62B00;
+}
 
 .logo img{
     width: 100%;
 }
+
 .back{
     background-color: #F6EBE4;
 }
@@ -22,9 +26,11 @@ body{
    z-index: 10;
 }
 .main{
-   height: 100vh;
    background-color: rgb(243, 246, 241);
    z-index: -1;
+}
+.mt-100{
+    margin-top: 12rem;
 }
 .nav-link {
     text-decoration: none;
@@ -46,7 +52,10 @@ border: 1px solid red;
         width: 350px;
         height: 80px;
     }
-    .navbar{
-        
+    .mt-100{
+        margin-top: 6rem;
+    }
+    .main{
+        height: auto;
     }
 }
